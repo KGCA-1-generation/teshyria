@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Teshyria - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPA0D1.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Teshyria.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\PrWork\Teshyria\main.cpp"
+"D:\PrWork\Teshyria\MainChar.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPA0D1.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPA0D2.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib ddraw.lib dxguid.lib dsound.lib winmm.lib dinput.lib amstrmid.lib strmbase.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Teshyria.pdb" /machine:I386 /out:"Release/Teshyria.exe" 
+.\Release\Animal.obj
+.\Release\Animation.obj
+.\Release\Assist.obj
+.\Release\CharMng.obj
+.\Release\CharObj.obj
+.\Release\DM6Mp3.obj
+.\Release\DM6Show.obj
+.\Release\Dx7Draw.obj
+.\Release\Dx7Input.obj
+.\Release\Dx7Sound.obj
+.\Release\Enemy.obj
+.\Release\Event.obj
+.\Release\function.obj
+.\Release\IDdata.obj
+.\Release\Image.obj
+.\Release\InterfaceMng.obj
+.\Release\Item.obj
+.\Release\main.obj
+.\Release\MainChar.obj
+.\Release\Map.obj
+.\Release\MapImg.obj
+.\Release\MapMng.obj
+.\Release\MstKnight.obj
+.\Release\OurKnight.obj
+.\Release\OurMage.obj
+.\Release\PathFinder.obj
+.\Release\RangerKnight.obj
+.\Release\RangerMage.obj
+.\Release\ScoutKnight.obj
+.\Release\ScoutMage.obj
+.\Release\TextData.obj
+.\Release\Teshyria.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPA0D2.TMP"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+MainChar.cpp
+Linking...
+Creating temporary file "C:\WINDOWS\TEMP\RSPA1E6.TMP" with contents
+[
+/nologo /o"Release/Teshyria.bsc" 
+.\Release\Animal.sbr
+.\Release\Animation.sbr
+.\Release\Assist.sbr
+.\Release\CharMng.sbr
+.\Release\CharObj.sbr
+.\Release\DM6Mp3.sbr
+.\Release\DM6Show.sbr
+.\Release\Dx7Draw.sbr
+.\Release\Dx7Input.sbr
+.\Release\Dx7Sound.sbr
+.\Release\Enemy.sbr
+.\Release\Event.sbr
+.\Release\function.sbr
+.\Release\IDdata.sbr
+.\Release\Image.sbr
+.\Release\InterfaceMng.sbr
+.\Release\Item.sbr
+.\Release\main.sbr
+.\Release\MainChar.sbr
+.\Release\Map.sbr
+.\Release\MapImg.sbr
+.\Release\MapMng.sbr
+.\Release\MstKnight.sbr
+.\Release\OurKnight.sbr
+.\Release\OurMage.sbr
+.\Release\PathFinder.sbr
+.\Release\RangerKnight.sbr
+.\Release\RangerMage.sbr
+.\Release\ScoutKnight.sbr
+.\Release\ScoutMage.sbr
+.\Release\TextData.sbr]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSPA1E6.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Teshyria.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
